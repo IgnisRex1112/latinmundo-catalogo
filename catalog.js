@@ -191,11 +191,11 @@ const DEFAULT_PRODUCTS = [
   },
   {
     id: 18,
-    name: "KOko",
-    tags: ["keke", "polvo"],
-    description: "sobre de sopa",
-    price: "2.99€",
-    badge: "nuevo",
+    name: "Flor de Jamaica 100g",
+    tags: ["flor", "polvo", "infusión"],
+    description: "Flor para infusiones",
+    price: "1.99€",
+    badge: " ",
     emoji: "🛒",
     image: "https://static8.depositphotos.com/1526816/999/v/450/depositphotos_9994393-stock-illustration-flower.jpg"
   }
