@@ -181,21 +181,21 @@ const DEFAULT_PRODUCTS = [
   },
   {
     id: 17,
-    name: "mondongo",
-    tags: ["condimento", "polvo"],
-    description: "sobre de sopa",
-    price: "1.99€",
-    badge: "nuevo",
+    name: "Pony Malta 330ml lata",
+    tags: ["bebida", "malta", "lata"],
+    description: "Bebida malteada",
+    price: "1.29€",
+    badge: "oferta",
     emoji: "🛒",
     image: "https://americanmarket.es/wp-content/uploads/2023/07/BE026_l-500x500-1.jpg"
   },
   {
     id: 18,
     name: "Flor de Jamaica 100g",
-    tags: ["flor", "polvo", "infusión"],
+    tags: ["flor","infusión"],
     description: "Flor para infusiones",
     price: "1.99€",
-    badge: " ",
+    badge: "",
     emoji: "🛒",
     image: "https://static8.depositphotos.com/1526816/999/v/450/depositphotos_9994393-stock-illustration-flower.jpg"
   },
@@ -208,7 +208,18 @@ const DEFAULT_PRODUCTS = [
     badge: "Agotado",
     emoji: "🛒",
     image: "https://lacasadejack.com/cdn/shop/files/chocoramo-20x65gsweets-5983325_1200x.jpg?v=1773702613"
+  },
+  {
+    id: 20,
+    name: "Pony Malta 330ml Cristal",
+    tags: ["bebida", "malta", "cristal"],
+    description: "",
+    price: "1.49€",
+    badge: "Agotado",
+    emoji: "🛒",
+    image: "https://tiendaonlineintertropico.com/img/p/1/3/6/6/1366-large_default.jpg"
   }
+  
 ];
 
 // ── Estado (en memoria — permanente en código, temporal en sesión) ──
