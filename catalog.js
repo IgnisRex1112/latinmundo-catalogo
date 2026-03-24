@@ -213,9 +213,9 @@ const DEFAULT_PRODUCTS = [
     id: 20,
     name: "Pony Malta 330ml Cristal",
     tags: ["bebida", "malta", "cristal"],
-    description: "",
+    description: "Bebida malteada",
     price: "1.49€",
-    badge: "Agotado",
+    badge: "",
     emoji: "🛒",
     image: "https://tiendaonlineintertropico.com/img/p/1/3/6/6/1366-large_default.jpg"
   }
