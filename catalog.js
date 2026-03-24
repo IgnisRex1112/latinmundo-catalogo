@@ -198,6 +198,16 @@ const DEFAULT_PRODUCTS = [
     badge: " ",
     emoji: "🛒",
     image: "https://static8.depositphotos.com/1526816/999/v/450/depositphotos_9994393-stock-illustration-flower.jpg"
+  },
+  {
+    id: 19,
+    name: "Chocorramo",
+    tags: ["chocolate", "bizcocho",],
+    description: "ChocoRamo, esponjoso bizcoho recubierto de chocolate",
+    price: "1.49€",
+    badge: "Agotado",
+    emoji: "🛒",
+    image: "https://lacasadejack.com/cdn/shop/files/chocoramo-20x65gsweets-5983325_1200x.jpg?v=1773702613"
   }
 ];
 
