@@ -201,7 +201,7 @@ const DEFAULT_PRODUCTS = [
   },
   {
     id: 19,
-    name: "Chocorramo",
+    name: "ChocoRamo",
     tags: ["chocolate", "bizcocho",],
     description: "ChocoRamo, esponjoso bizcoho recubierto de chocolate",
     price: "1.49€",
