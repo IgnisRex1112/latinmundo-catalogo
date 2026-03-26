@@ -157,7 +157,7 @@ const DEFAULT_PRODUCTS = [
   price: "3.59€",
   badge: "",
   emoji: "🛒",
-  image: "https://www.labodeguita.no/products/papas-rizadas-pollo-105-g"
+  image: "https://labodeguita-i04.mycdn.no/mysimgprod/labodeguita_mystore_no/images/AqelB_PAPAS_RIZADAS_POLLO_105g_1.png/w665h637.png"
 },
 {
   id: 15,
@@ -167,7 +167,7 @@ const DEFAULT_PRODUCTS = [
   price: "3.59€",
   badge: "",
   emoji: "🛒",
-  image: "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/1f3212cc8cbe77ac7924e225473f93109c479f2b.jpg"
+  image: "https://http2.mlstatic.com/D_Q_NP_2X_702753-MLA107184127343_022026-P.webp"
 },
 {
   id: 16,
