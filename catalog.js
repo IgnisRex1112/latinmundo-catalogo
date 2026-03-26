@@ -20,206 +20,195 @@
 // ─────────────────────────────────────────────────────────────
 const DEFAULT_PRODUCTS = [
   {
-    id: 1,
-    name: "CBSé Yerba Mate Frutos del Bosque",
-    tags: ["yerba mate", "bebida", "argentina", "infusión"],
-    description: "Yerba mate argentina con aroma natural a frutos del bosque. Bolsa de 500g. Perfecta para compartir entre amigos.",
-    price: "",
-    badge: "popular",
-    emoji: "🧉",
-    image: ""
-  },
-  {
-    id: 2,
-    name: "CBSé Yerba Mate Naranja",
-    tags: ["yerba mate", "bebida", "argentina", "infusión", "cítrico"],
-    description: "Blend de yerba mate con notas cítricas de naranja. Refrescante y natural. 500g.",
-    price: "",
-    badge: "",
-    emoji: "🧉",
-    image: ""
-  },
-  {
-    id: 3,
-    name: "Canarias Yerba Mate",
-    tags: ["yerba mate", "bebida", "uruguaya", "infusión"],
-    description: "Yerba mate uruguaya de hoja fina, clásica y reconocida en todo el mundo. Ideal para el mate tradicional.",
-    price: "",
-    badge: "",
-    emoji: "🧉",
-    image: ""
-  },
-  {
-    id: 4,
-    name: "Kurupí Menta y Boldo",
-    tags: ["yerba mate", "bebida", "hierbas", "infusión", "digestivo"],
-    description: "Yerba mate compuesta con hierbas de menta y boldo. Sabor suave y digestivo. 500g.",
-    price: "",
-    badge: "nuevo",
-    emoji: "🧉",
-    image: ""
-  },
-  {
-    id: 5,
-    name: "Buchanan's DeLuxe 12 Años",
-    tags: ["whisky", "bebida espirituosa", "escocés", "alcohol", "premium"],
-    description: "Whisky escocés blended envejecido 12 años. Notas de vainilla, miel y especias. 700ml.",
-    price: "",
-    badge: "premium",
-    emoji: "🥃",
-    image: ""
-  },
-  {
-    id: 6,
-    name: "Old Parr Tropical",
-    tags: ["whisky", "bebida espirituosa", "escocés", "alcohol"],
-    description: "Whisky escocés con vibra caribeña. Notas frescas y tropicales, perfecto para combinados. 700ml.",
-    price: "",
-    badge: "",
-    emoji: "🥃",
-    image: ""
-  },
-  {
-    id: 7,
-    name: "Cristal Sin Azúcar",
-    tags: ["bebida espirituosa", "caña", "ecuador", "alcohol", "sin azúcar"],
-    description: "Bebida espirituosa de caña del Valle de Yanguilla, Ecuador. 700ml — 34% ABV. Ligera y sin azúcar añadida.",
-    price: "",
-    badge: "",
-    emoji: "🍶",
-    image: ""
-  },
-  {
-    id: 8,
-    name: "Trópico Liqueur",
-    tags: ["licor", "bebida espirituosa", "tropical", "alcohol", "frutas"],
-    description: "Licor tropical con sabores a frutas exóticas. Disponible en Tropicola, Tropiale y Sin Azúcar.",
-    price: "",
-    badge: "",
-    emoji: "🍹",
-    image: ""
-  },
-  {
-    id: 9,
-    name: "Tilapia Fresca",
-    tags: ["pescado", "fresco", "proteína", "mar"],
-    description: "Tilapia entera fresca. Ideal para freír, al horno o a la plancha. Consulta disponibilidad diaria.",
-    price: "",
-    badge: "fresco",
-    emoji: "🐟",
-    image: ""
-  },
-  {
-    id: 10,
-    name: "Maizena",
-    tags: ["despensa", "harina", "maíz", "espesante", "colombiana"],
-    description: "Fécula de maíz Maizena. Imprescindible en la cocina latinoamericana para espesar salsas, cremas y postres.",
-    price: "",
-    badge: "",
-    emoji: "🌽",
-    image: ""
-  },
-  {
-    id: 11,
-    name: "Arroz Blanco Largo",
-    tags: ["despensa", "arroz", "cereal", "básico"],
-    description: "Arroz de grano largo, base de la cocina latinoamericana. Disponible en bolsas de 1kg y 5kg.",
-    price: "",
-    badge: "",
-    emoji: "🍚",
-    image: ""
-  },
-  {
-    id: 12,
-    name: "Frijoles Negros",
-    tags: ["despensa", "legumbre", "conserva", "proteína", "colombiana"],
-    description: "Frijoles negros secos. Esenciales para platos como gallo pinto, moros y cristianos, o feijoada.",
-    price: "",
-    badge: "",
-    emoji: "🫘",
-    image: ""
-  },
-  {
-    id: 13,
-    name: "Plátano Macho",
-    tags: ["fruta", "fresco", "tropical", "verdura", "plátano"],
-    description: "Plátano macho importado, perfecto para tostones, patacones y otros platos latinoamericanos tradicionales.",
-    price: "",
-    badge: "fresco",
-    emoji: "🍌",
-    image: ""
-  },
-  {
-    id: 14,
-    name: "Yuca Fresca",
-    tags: ["verdura", "fresco", "tropical", "raíz", "mandioca"],
-    description: "Yuca fresca (mandioca). Ideal para hervir, freír o hacer purés. Muy versátil en la cocina caribeña.",
-    price: "",
-    badge: "fresco",
-    emoji: "🌿",
-    image: ""
-  },
-  {
-    id: 15,
-    name: "Ají Amarillo",
-    tags: ["especias", "condimento", "picante", "peruano", "fresco"],
-    description: "Ají amarillo peruano, el ingrediente estrella de la cocina peruana. Sabor único, afrutado y picante moderado.",
-    price: "",
-    badge: "",
-    emoji: "🌶️",
-    image: ""
-  },
-  {
-    id: 16,
-    name: "Tinto de Verano Tropical",
-    tags: ["refresco", "bebida", "lata", "verano"],
-    description: "Refresco de tinto de verano con toque tropical. Ligero y refrescante. Pack de 6 latas.",
-    price: "",
-    badge: "",
-    emoji: "🥤",
-    image: ""
-  },
-  {
-    id: 17,
-    name: "Pony Malta 330ml lata",
-    tags: ["bebida", "malta", "lata"],
-    description: "Bebida malteada",
-    price: "1.29€",
-    badge: "oferta",
-    emoji: "🛒",
-    image: "https://americanmarket.es/wp-content/uploads/2023/07/BE026_l-500x500-1.jpg"
-  },
-  {
-    id: 18,
-    name: "Flor de Jamaica 100g",
-    tags: ["flor","infusión"],
-    description: "Flor para infusiones",
-    price: "1.99€",
-    badge: "",
-    emoji: "🛒",
-    image: "https://static8.depositphotos.com/1526816/999/v/450/depositphotos_9994393-stock-illustration-flower.jpg"
-  },
-  {
-    id: 19,
-    name: "ChocoRamo",
-    tags: ["chocolate", "bizcocho",],
-    description: "ChocoRamo, esponjoso bizcoho recubierto de chocolate",
-    price: "1.49€",
-    badge: "Agotado",
-    emoji: "🛒",
-    image: "https://lacasadejack.com/cdn/shop/files/chocoramo-20x65gsweets-5983325_1200x.jpg?v=1773702613"
-  },
-  {
-    id: 20,
-    name: "Pony Malta 330ml Cristal",
-    tags: ["bebida", "malta", "cristal"],
-    description: "Bebida malteada",
-    price: "1.49€",
-    badge: "",
-    emoji: "🛒",
-    image: "https://tiendaonlineintertropico.com/img/p/1/3/6/6/1366-large_default.jpg"
-  }
-  
+  id: 1,
+  name: "Platanitos con Sal El Dorado 100g",
+  tags: ["snack", "plátano", "salado", "Colombia"],
+  description: "Platanitos fritos con sal marca El Dorado, bolsa de 100g",
+  price: "1.50€",
+  badge: "",
+  emoji: "🛒",
+  image: "https://distribuidoralatinoandina.com/media/2020/05/El-Dorado-Platanitos-Sal-100g.jpg"
+},
+{
+  id: 2,
+  name: "Platanitos Sabor Limón El Dorado 100g",
+  tags: ["snack", "plátano", "limón", "Colombia"],
+  description: "Platanitos fritos sabor limón El Dorado, bolsa de 100g",
+  price: "1.50€",
+  badge: "",
+  emoji: "🛒",
+  image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQfUXfefaMjVohJB-6tlrZF3tTCjRdXrTKo04Ydwz5C3BOWXPR36rp3AYkiduKwc88HIZUKuLpf9pzt8gubicyqPkS9qjCQYIqBIj9pAOgtkytIuI5Gg4MSMA"
+},
+{
+  id: 3,
+  name: "Platanitos Dulces El Dorado 100g",
+  tags: ["snack", "plátano", "dulce", "Colombia"],
+  description: "Platanitos fritos dulces El Dorado, bolsa de 100g",
+  price: "1.50€",
+  badge: "",
+  emoji: "🛒",
+  image: "https://www.europaenvios.es/wp-content/uploads/2024/10/El-Dorado-Platanitos-Dulces-100g.png"
+},
+{
+  id: 4,
+  name: "Platanitos Picantes El Dorado 100g",
+  tags: ["snack", "plátano", "picante", "Colombia"],
+  description: "Platanitos fritos sabor picante El Dorado, bolsa de 100g",
+  price: "1.50€",
+  badge: "",
+  emoji: "🛒",
+  image: "https://distribuidoralatinoandina.com/media/2020/05/El-Dorado-Platanitos-Picantes-100g.jpg"
+},
+{
+  id: 5,
+  name: "Platanitos Sabor Chile y Limón El Dorado 100g",
+  tags: ["snack", "plátano", "chile", "limón", "Colombia"],
+  description: "Platanitos fritos sabor chile y limón El Dorado, bolsa de 100g",
+  price: "1.50€",
+  badge: "",
+  emoji: "🛒",
+  image: "https://distribuidoralatinoandina.com/media/2020/05/El-Dorado-Platanitos-Chile-Limon-100g.jpg"
+},
+{
+  id: 6,
+  name: "Platanitos con Sal El Dorado 250g",
+  tags: ["snack", "plátano", "salado", "Colombia"],
+  description: "Platanitos fritos con sal El Dorado, formato familiar 250g",
+  price: "2.95€",
+  badge: "",
+  emoji: "🛒",
+  image: "https://distribuidoralatinoandina.com/media/2020/04/PLAT_SAL_250G.png"
+},
+{
+  id: 7,
+  name: "Chifles Dulces Maduritos Tortolines 100g",
+  tags: ["snack", "chifles", "dulce", "maduro", "Ecuador"],
+  description: "Chifles de plátano maduro dulces Tortolines, bolsa de 100g",
+  price: "1.65€",
+  badge: "",
+  emoji: "🛒",
+  image: "https://static.carrefour.es/hd_510x_/img_pim_food/762002_00_1.jpg"
+},
+{
+  id: 8,
+  name: "Chifles con Ajo Tortolines 100g",
+  tags: ["snack", "chifles", "ajo", "Ecuador"],
+  description: "Chifles de plátano con sabor a ajo Tortolines, bolsa de 100g",
+  price: "1.65€",
+  badge: "",
+  emoji: "🛒",
+  image: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQcevWeenDTSKNTDD269e5E5SNtpenSo0zR_WMlhfr56IjTdcSPhZcr9GMkzy9C"
+},
+{
+  id: 9,
+  name: "Chifles con Sal Tortolines 100g",
+  tags: ["snack", "chifles", "salado", "Ecuador"],
+  description: "Chifles de plátano con sal Tortolines, bolsa de 100g",
+  price: "1.65€",
+  badge: "",
+  emoji: "🛒",
+  image: "https://www.hiperasia.com/cdn/shop/products/7861006794149.jpg?v=1636187845&width=1200"
+},
+{
+  id: 10,
+  name: "Chifles con Sal Tortolines 250g",
+  tags: ["snack", "chifles", "salado", "Ecuador"],
+  description: "Chifles de plátano con sal Tortolines, formato 250g",
+  price: "3.40€",
+  badge: "",
+  emoji: "🛒",
+  image: "https://www.hiperasia.com/cdn/shop/products/7861006796945.jpg?v=1636187847&width=1200"
+},
+{
+  id: 11,
+  name: "Chifles Dulces Maduritos Tortolines 250g",
+  tags: ["snack", "chifles", "dulce", "maduro", "Ecuador"],
+  description: "Chifles de plátano maduro dulces Tortolines, bolsa de 250g",
+  price: "3.40€",
+  badge: "",
+  emoji: "🛒",
+  image: "https://latiendona.es/wp-content/uploads/2020/10/167-chifle-madurito-tortolines-250g-1.png"
+},
+{
+  id: 12,
+  name: "Chifles Artesanales Tortolines 200g",
+  tags: ["snack", "chifles", "artesanal", "Ecuador"],
+  description: "Chifles de plátano artesanales Tortolines, bolsa de 200g",
+  price: "3.40€",
+  badge: "",
+  emoji: "🛒",
+  image: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTGblB-7CV80QMMED91Iws0TXUgomwQqLgF0Qa_fVX06Ph7xp_e6eJgYMsSikSiYeWglv9xBPfuGEY8esaHqDbh90wTdX9NMbbdRgqsAYZmyXho9Gr0BBReF1pR"
+},
+{
+  id: 13,
+  name: "Rizadas Sabor Mayonesa 105g",
+  tags: ["snack", "patatas", "mayonesa", "Colombia"],
+  description: "Papas rizadas sabor mayonesa, bolsa de 105g",
+  price: "3.59€",
+  badge: "",
+  emoji: "🛒",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSOPiVBwu3hFW1o6SmnIlNRk-Feed7UV2XPQ&s"
+},
+{
+  id: 14,
+  name: "Rizadas Sabor Pollo 105g",
+  tags: ["snack", "patatas", "pollo", "Colombia"],
+  description: "Papas rizadas sabor pollo, bolsa de 105g",
+  price: "3.59€",
+  badge: "",
+  emoji: "🛒",
+  image: "https://www.labodeguita.no/products/papas-rizadas-pollo-105-g"
+},
+{
+  id: 15,
+  name: "Rizadas Sabor Limón 105g",
+  tags: ["snack", "patatas", "limón", "Colombia"],
+  description: "Papas rizadas sabor limón, bolsa de 105g",
+  price: "3.59€",
+  badge: "",
+  emoji: "🛒",
+  image: "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/1f3212cc8cbe77ac7924e225473f93109c479f2b.jpg"
+},
+{
+  id: 16,
+  name: "Pony Malta 330ml lata",
+  tags: ["bebida", "malta", "lata"],
+  description: "Bebida malteada",
+  price: "1.29€",
+  badge: "oferta",
+  emoji: "🛒",
+  image: "https://americanmarket.es/wp-content/uploads/2023/07/BE026_l-500x500-1.jpg"
+},
+{
+  id: 17,
+  name: "Flor de Jamaica 100g",
+  tags: ["flor","infusión"],
+  description: "Flor para infusiones",
+  price: "1.99€",
+  badge: "",
+  emoji: "🛒",
+  image: "https://static8.depositphotos.com/1526816/999/v/450/depositphotos_9994393-stock-illustration-flower.jpg"
+},
+{
+  id: 18,
+  name: "ChocoRamo",
+  tags: ["chocolate", "bizcocho",],
+  description: "ChocoRamo, esponjoso bizcoho recubierto de chocolate",
+  price: "1.49€",
+  badge: "Agotado",
+  emoji: "🛒",
+  image: "https://lacasadejack.com/cdn/shop/files/chocoramo-20x65gsweets-5983325_1200x.jpg?v=1773702613"
+},
+{
+  id: 19,
+  name: "Pony Malta 330ml Cristal",
+  tags: ["bebida", "malta", "cristal"],
+  description: "Bebida malteada",
+  price: "1.49€",
+  badge: "",
+  emoji: "🛒",
+  image: "https://tiendaonlineintertropico.com/img/p/1/3/6/6/1366-large_default.jpg"
+}
 ];
 
 // ── Estado (en memoria — permanente en código, temporal en sesión) ──
