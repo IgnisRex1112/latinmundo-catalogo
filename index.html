@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html lang="es" data-theme="light">
 <head>
-<!--
-   ______                            __
-  / ____/___  ____ ___  ____  __  __/ /____  _____
- / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
-/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
-\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
-                    /_/
-        Created with Perplexity Computer
-        https://www.perplexity.ai/computer
--->
-<meta name="generator" content="Perplexity Computer">
-<meta name="author" content="Perplexity Computer">
-<meta property="og:see_also" content="https://www.perplexity.ai/computer">
-<link rel="author" href="https://www.perplexity.ai/computer">
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LatinMundo — Productos Latinos en España</title>
@@ -24,10 +9,31 @@
   <meta property="og:description" content="Tu tienda de productos latinos en Torrevieja">
   <meta property="og:type" content="website">
 
+  <!-- FAVICON CON TU PNG -->
+  <link rel="icon" type="image/png" href="S.jpg">
+
   <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=satoshi@400,500,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="admin.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%231a6641'/><text y='22' x='8' font-size='18' font-family='serif' font-weight='bold' fill='%23c68e00'>S</text></svg>">
+
+  <!-- LOGO REDONDO CON CSS -->
+  <style>
+    .logo-mark {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #c68e00;
+      background: #1a6641;
+      box-shadow: 0 0 0 3px rgba(0,0,0,0.1);
+    }
+
+    /* Versión más grande para el header principal si quieres */
+    .header .logo-mark {
+      width: 44px;
+      height: 44px;
+    }
+  </style>
 
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"GroceryStore","name":"LatinMundo","description":"Tienda de alimentación latina en España.","url":"https://alimentacionsupermundo.es","telephone":"+34865787846","email":"supermundo2021@gmail.com","address":{"@type":"PostalAddress","streetAddress":"Avda. Diego Ramirez Pastor, 118","postalCode":"03182","addressCountry":"ES"},"sameAs":["https://www.instagram.com/latinmundo_oficial/"],"creator":{"@type":"SoftwareApplication","name":"Perplexity Computer","url":"https://www.perplexity.ai/computer"}}
@@ -44,11 +50,8 @@
   <header class="header">
     <div class="header-inner">
       <a href="#" class="logo" aria-label="LatinMundo - Inicio">
-        <svg class="logo-mark" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <rect width="44" height="44" rx="10" fill="#1a6641"/>
-          <path d="M22 8C14.27 8 8 14.27 8 22s6.27 14 14 14 14-6.27 14-14S29.73 8 22 8zm0 25.2c-6.18 0-11.2-5.02-11.2-11.2S15.82 10.8 22 10.8 33.2 15.82 33.2 22 28.18 33.2 22 33.2z" fill="#c68e00" opacity="0.6"/>
-          <text x="50%" y="62%" dominant-baseline="middle" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="16" fill="#c68e00">S</text>
-        </svg>
+        <!-- LOGO PNG REDONDO -->
+        <img src="S.jpg" alt="LatinMundo" class="logo-mark">
         <div class="logo-text">
           <span class="logo-name">LatinMundo</span>
           <span class="logo-sub">Alimentación Latina</span>
@@ -64,7 +67,6 @@
         <button class="btn-icon" data-theme-toggle aria-label="Cambiar tema">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
         </button>
-        <!-- Botón admin oculto al público — accede añadiendo #admin a la URL -->
         <button class="mobile-menu-btn btn-icon" id="mobile-menu-btn" aria-label="Abrir menú">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
         </button>
@@ -94,20 +96,18 @@
       </div>
     </div>
 
-      <!-- Estadísticas -->
-      <div class="hero-stats">
-        <div class="hero-stat">
-          <span class="hero-stat-num">+100</span>
-          <span class="hero-stat-label">Productos</span>
-        </div>
-        <div class="hero-stat">
-          <span class="hero-stat-num">6+</span>
-          <span class="hero-stat-label">Países origen</span>
-        </div>
-        <div class="hero-stat">
-          <span class="hero-stat-num">Torrevieja</span>
-          <span class="hero-stat-label">Estamos aquí</span>
-        </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="hero-stat-num">+100</span>
+        <span class="hero-stat-label">Productos</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">6+</span>
+        <span class="hero-stat-label">Países origen</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">Torrevieja</span>
+        <span class="hero-stat-label">Estamos aquí</span>
       </div>
     </div>
   </section>
@@ -184,7 +184,8 @@
     <div class="footer-inner">
       <div class="footer-brand">
         <a href="#" class="logo">
-          <svg width="36" height="36" viewBox="0 0 44 44" fill="none"><rect width="44" height="44" rx="10" fill="#1a6641"/><text x="50%" y="62%" dominant-baseline="middle" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="18" fill="#c68e00">S</text></svg>
+          <!-- LOGO PNG REDONDO EN FOOTER -->
+          <img src="S.jpg" alt="LatinMundo" class="logo-mark">
           <span class="logo-name">LatinMundo</span>
         </a>
         <p>Tu tienda de alimentación latina en España. Productos auténticos de toda Latinoamérica.</p>
@@ -214,7 +215,6 @@
           <li><a href="#">Inicio</a></li>
           <li><a href="#catalogo">Catálogo</a></li>
           <li><a href="https://www.instagram.com/latinmundo_oficial/" target="_blank" rel="noopener">Instagram</a></li>
-  
         </ul>
       </div>
       <div>
@@ -243,7 +243,8 @@
   <div id="admin-login-screen" class="login-screen" style="display:flex;">
     <div class="login-card">
       <div class="login-logo">
-        <svg width="38" height="38" viewBox="0 0 44 44" fill="none"><rect width="44" height="44" rx="10" fill="#1a6641"/><text x="50%" y="62%" dominant-baseline="middle" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="18" fill="#c68e00">S</text></svg>
+        <!-- LOGO PNG REDONDO EN ADMIN LOGIN -->
+        <img src="S.jpg" alt="LatinMundo" class="logo-mark">
         <span style="font-family:var(--font-display);font-size:var(--text-lg);font-weight:700;color:var(--color-primary);">LatinMundo</span>
       </div>
       <h1>Panel de Administración</h1>
@@ -335,10 +336,8 @@
         </div>
       </div>
 
-      <!-- Backdrop móvil -->
       <div class="drawer-backdrop" id="drawer-backdrop" onclick="closeDrawer()"></div>
 
-      <!-- Panel derecho: drawer editor -->
       <aside class="admin-drawer hidden" id="admin-drawer" aria-label="Editor de producto">
         <div class="drawer-header">
           <div>
@@ -432,76 +431,13 @@
     </div><!-- /admin-body -->
   </div><!-- /admin-main-panel -->
 
-  <!-- Toast admin -->
   <div id="admin-toast" class="toast" role="alert" aria-live="assertive"></div>
-
 </div><!-- /view-admin -->
 
-<!-- Toast catálogo -->
 <div id="toast" class="toast" role="alert" aria-live="assertive"></div>
 
 <script src="catalog.js"></script>
 <script src="admin.js"></script>
-<script data-pplx-inline-edit>
-(function(){
-  if(window===window.top)return;
-  function inlineAll(orig,clone){
-    if(orig.nodeType!==1)return;
-    try{
-      var cs=getComputedStyle(orig);
-      var t='';
-      for(var i=0;i<cs.length;i++){t+=cs[i]+':'+cs.getPropertyValue(cs[i])+';';}
-      clone.style.cssText=t;
-    }catch(e){}
-    var oc=orig.children,cc=clone.children;
-    for(var j=0;j<oc.length&&j<cc.length;j++){inlineAll(oc[j],cc[j]);}
-  }
-  function stripExternal(clone){
-    var imgs=clone.querySelectorAll('img');
-    for(var i=0;i<imgs.length;i++){
-      var s=imgs[i].getAttribute('src');
-      if(s&&!s.startsWith('data:'))imgs[i].removeAttribute('src');
-    }
-    var all=clone.querySelectorAll('*');
-    for(var i=0;i<all.length;i++){
-      var st=all[i].style.cssText;
-      if(st&&st.indexOf('url(')>=0){
-        all[i].style.cssText=st.replace(/url\(["']?(?!data:)[^)"']*["']?\)/gi,'none');
-      }
-    }
-  }
-  window.addEventListener('message',function(e){
-    if(!e.data||e.data.type!=='INLINE_EDIT_CAPTURE_REQUEST')return;
-    var scrollX=window.scrollX||window.pageXOffset||0;
-    var scrollY=window.scrollY||window.pageYOffset||0;
-    var w=window.innerWidth,h=window.innerHeight;
-    try{
-      var clone=document.documentElement.cloneNode(true);
-      var rm=clone.querySelectorAll('script,link[rel="stylesheet"],style');
-      for(var i=0;i<rm.length;i++){rm[i].remove();}
-      inlineAll(document.documentElement,clone);
-      stripExternal(clone);
-      var html=new XMLSerializer().serializeToString(clone);
-      var svg='<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'">'
-        +'<foreignObject width="100%" height="100%">'
-        +'<div xmlns="http://www.w3.org/1999/xhtml" style="width:'+w+'px;height:'+h+'px;overflow:hidden">'
-        +'<div style="transform:translate(-'+scrollX+'px,-'+scrollY+'px);transform-origin:top left">'
-        +html+'</div></div></foreignObject></svg>';
-      var svgUrl='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
-      var img=new Image();
-      img.onload=function(){
-        var c=document.createElement('canvas');c.width=w;c.height=h;
-        c.getContext('2d').drawImage(img,0,0);
-        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:c.toDataURL('image/png'),scrollX:scrollX,scrollY:scrollY},'*');
-      };
-      img.onerror=function(){
-        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
-      };
-      img.src=svgUrl;
-    }catch(err){
-      window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
-    }
-  });
-})();
-</script></body>
+
+</body>
 </html>
