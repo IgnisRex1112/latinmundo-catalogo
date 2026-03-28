@@ -208,7 +208,137 @@ const DEFAULT_PRODUCTS = [
   badge: "",
   emoji: "🛒",
   image: "https://tiendaonlineintertropico.com/img/p/1/3/6/6/1366-large_default.jpg"
-}
+},  
+{
+    id: 20,
+    name: "Choclitos Limón Intenso 210g",
+    tags: ["snack", "maíz", "limón", "colombia"],
+    description: "Snacks de maíz crujientes con sabor a limón intenso, bolsa de 210g.",
+    price: "3.99€",
+    badge: "",
+    emoji: "🌽",
+    image: "https://productimages.etrusted.com/products/prt-8ba930ad-86d1-5b25-e6e9-0ba1b9925841/24/original.jpeg"
+  },
+  {
+    id: 21,
+    name: "Choclitos Limón Intenso 27g",
+    tags: ["snack", "maíz", "limón", "monodosis", "colombia"],
+    description: "Snacks de maíz sabor limón intenso en formato individual de 27g.",
+    price: "0.89€",
+    badge: "",
+    emoji: "🌽",
+    image: "https://perustocks.es/images/articles/1136_perustocks.com_1.jpg"
+  },
+  {
+    id: 22,
+    name: "Choclitos Limón América 150g",
+    tags: ["snack", "maíz", "limón", "colombia"],
+    description: "Choclitos de maíz sabor limón América en bolsa de 150g.",
+    price: "1.69€",
+    badge: "",
+    emoji: "🌽",
+    image: "https://perustocks.es//images/articles/2420_perustocks.com_1.jpg"
+  },
+  {
+    id: 23,
+    name: "Popetas con Caramelo 165g",
+    tags: ["snack", "palomitas", "caramelo", "colombia"],
+    description: "Palomitas de maíz recubiertas de caramelo, dulces y crujientes.",
+    price: "2.95€",
+    badge: "",
+    emoji: "🍿",
+    image: "https://mandalomarket.com/wp-content/uploads/2023/11/popetas-caramelo-800x800.jpeg"
+  },
+  {
+    id: 24,
+    name: "Tilapia Roja Congelada",
+    tags: ["congelado", "pescado", "tilapia", "colombia"],
+    description: "Tilapia roja congelada vendida al kilo, ideal para horno o fritura.",
+    price: "7.49€/kg",
+    badge: "",
+    emoji: "🐟",
+    image: "https://distribuidoralatinoandina.com/media/2020/05/Red-Tilapia.jpg"
+  },
+  {
+    id: 25,
+    name: "De Todito Mix 165g",
+    tags: ["snack", "mezcla", "salado", "colombia"],
+    description: "Mezcla de snacks salados De Todito en bolsa de 165g.",
+    price: "4.70€",
+    badge: "",
+    emoji: "🛒",
+    image: "https://mandalomarket.com/wp-content/uploads/2025/11/Fotos-de-producto-GUIAS-29-800x800.jpg"
+  },
+  {
+    id: 26,
+    name: "De Todito Limón 165g",
+    tags: ["snack", "mezcla", "limón", "colombia"],
+    description: "Mezcla de snacks De Todito con sabor a limón en bolsa de 165g.",
+    price: "4.70€",
+    badge: "",
+    emoji: "🍋",
+    image: "https://mercacentro.vtexassets.com/arquivos/ids/169510-800-auto?v=638944211308270000&width=800&height=auto&aspect=true"
+  },
+  {
+    id: 27,
+    name: "De Todito Natural 45g",
+    tags: ["snack", "mezcla", "salado", "monodosis", "colombia"],
+    description: "Mezcla de snacks De Todito sabor natural en formato 45g.",
+    price: "1.99€",
+    badge: "",
+    emoji: "🛒",
+    image: "https://mercalatino.com/files/product_images/2024/08/29/IMG_0456.JPG"
+  },
+  {
+    id: 28,
+    name: "Cheese Tris Bolsaza 120g",
+    tags: ["snack", "maíz", "queso", "colombia"],
+    description: "Snacks de maíz sabor queso Cheese Tris en bolsa de 120g.",
+    price: "2.79€",
+    badge: "",
+    emoji: "🧀",
+    image: "https://caprichoslatinos.com/wp-content/uploads/2025/10/Cheese-tris-120g.webp"
+  },
+  {
+    id: 29,
+    name: "Margarita Ondulada Mayonesa 105g",
+    tags: ["snack", "patatas-fritas", "mayonesa", "colombia"],
+    description: "Patatas onduladas Margarita sabor mayonesa en bolsa de 105g.",
+    price: "3.99€",
+    badge: "",
+    emoji: "🥔",
+    image: "https://mercalatino.com/files/product_images/2025/07/22/IMG_1307.jpg"
+  },
+  {
+    id: 30,
+    name: "Margarita Pollo 105g",
+    tags: ["snack", "patatas-fritas", "pollo", "colombia"],
+    description: "Patatas fritas Margarita sabor pollo, muy crujientes.",
+    price: "3.99€",
+    badge: "",
+    emoji: "🥔",
+    image: "https://mandalomarket.com/wp-content/uploads/2021/01/Papas_Onduladas_Sabor_Pollo_105_gr_Margarita_7702189053770_Mandalo_Spain.jpg"
+  },
+  {
+    id: 31,
+    name: "Margarita Limón 105g",
+    tags: ["snack", "patatas-fritas", "limón", "colombia"],
+    description: "Patatas fritas Margarita con sabor a limón en bolsa de 105g.",
+    price: "3.99€",
+    badge: "",
+    emoji: "🍋",
+    image: "https://shop.sabormex.es/cdn/shop/files/2957747671_1024x1024@2x.jpg?v=1734607397"
+  },
+  {
+    id: 32,
+    name: "Snacky Caramelo Colombina 50g",
+    tags: ["snack", "cereal", "caramelo", "colombia"],
+    description: "Bocaditos dulces Snacky Colombina sabor caramelo en bolsa de 50g.",
+    price: "1.30€",
+    badge: "",
+    emoji: "🍬",
+    image: "https://mercalatino.com/files/product_images/2025/01/13/IMG_0930.jpg"
+  }
 ];
 
 // ── Estado (en memoria — permanente en código, temporal en sesión) ──
